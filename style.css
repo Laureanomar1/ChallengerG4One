@@ -1,0 +1,159 @@
+*{
+    background: #f7f7f8;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 15px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.text-area{
+    height: 400;
+    color: #1f10a0;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px;
+    text-transform: lowercase;
+    border: solid;
+}
+
+::placeholder{
+    color: #62710a;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    height: 430px;
+    background: white;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: auto;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.imgInformacion{
+    display: inline;
+    height: 12px;
+    margin-left: 100px;
+    margin-top: 1px;
+}
+
+.informacion{
+    display: inline;
+    color: #000000;
+    font-size: 16px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 25px;
+}
+
+.encriptador{
+    width: 328px;
+    height: 67px;
+    font-size: 20px;
+    color: white;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.encriptador:hover{
+    opacity: 0.3;
+}
+
+.desencriptador{
+    width: 328px;
+    height: 67px;        
+    margin-left: 20px;
+    font-size: 20px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.desencriptador:hover{
+    opacity: 0.3;
+}
+
+.copiar{
+    font-size: 20px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    background-color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 80px;
+    margin-top: 43px;
+    position: absolute;
+    width: 336px;
+    transition: 400ms;
+}
+
+.copiar:hover{
+    opacity: 0.3;
+}
+
+footer{
+    
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    background: none;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: none;
+    color: black;
+    border-radius: 50%;
+    background-color: #85FFBD;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.buttons a:hover{
+    transform: scale(1.3);
+}
